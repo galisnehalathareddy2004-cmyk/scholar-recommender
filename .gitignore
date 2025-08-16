@@ -1,0 +1,7 @@
+Set-Content -Path .gitignore -Value @"
+venv/
+node_modules/
+__pycache__/
+.env
+.DS_Store
+"@
